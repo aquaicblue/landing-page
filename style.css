@@ -1,0 +1,160 @@
+/* css styles */
+
+* {
+    font-family: monospace;
+    color: rgb(57, 65, 91);
+    
+}
+
+/* first fourth of the site */
+
+a {
+    text-decoration: none;
+    padding: 18px;
+}
+
+.first {
+    background-color: rgb(210, 141, 57);
+    border: none;
+    
+}
+
+.header {
+    display: flex;
+    gap: 24px;
+    padding-top: 18px;
+    margin-left: 24px;
+    justify-content: space-between;
+}
+
+.first-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 24px;
+
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    height: auto;
+    width: 300px;
+    align-items: flex-start;
+    padding: 24px;
+}
+
+.first-text-title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.first-image {
+    height: auto;
+    width: 500px;
+    align-self: center;
+}
+
+.button1 {
+    padding: 10px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: rgb(235, 242, 99);
+}
+
+
+/* second fourth of the site */
+
+
+.second {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-header {
+    font-weight: bolder;
+    font-size: 36px;
+    padding: 24px;
+
+}
+
+.second-images {
+    display: flex;
+    gap: 18px;
+
+}
+
+p,
+.recipe1 .recipe2 .recipe3 .recipe4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* third of the site */
+
+.third {
+    background-color: rgb(207, 159, 99);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.quote {
+    width: 500px;
+    height: auto;
+    font-style: italic;
+    align-self: center;
+    padding-top: 40px;
+    font-size: 36px;
+}
+
+.quote-sig {
+    font-weight: bold;
+    align-self: center;
+    padding-bottom: 24px;
+    padding-left: 200px;
+    padding-top: 24px;
+    font-size: 24px;
+
+}
+
+
+
+
+/* fourth of the site */
+
+
+.fourth {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth-box {
+    background-color: rgb(210, 141, 57) ;
+    height: auto;
+    width: 500x;
+    margin: 48px;
+}
