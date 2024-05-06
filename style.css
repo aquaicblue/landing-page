@@ -2,8 +2,7 @@
 
 * {
     font-family: monospace;
-    color: rgb(57, 65, 91);
-    
+    color: rgb(57, 65, 91); 
 }
 
 /* first fourth of the site */
@@ -15,11 +14,11 @@ a {
 
 .first {
     background-color: rgb(210, 141, 57);
-    border: none;
-    
+    margin: 0px;
 }
 
 .header {
+    font-size: 20px;
     display: flex;
     gap: 24px;
     padding-top: 18px;
@@ -32,7 +31,7 @@ a {
     justify-content: center;
     margin-top: 30px;
     gap: 24px;
-
+    padding: 24px;
 }
 
 .first-text {
@@ -60,10 +59,11 @@ a {
     padding: 10px 24px;
     border-radius: 8px;
     transition-duration: 0.4s;
+    background-color: rgb(237, 218, 112);
 }
 
 .button1:hover {
-    background-color: rgb(235, 242, 99);
+    background-color: white;
 }
 
 
@@ -76,18 +76,22 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 48px;
+    padding-top: 24px;
 }
 
 .second-header {
     font-weight: bolder;
     font-size: 36px;
     padding: 24px;
+    margin-bottom: 12px;
 
 }
 
 .second-images {
     display: flex;
     gap: 18px;
+    flex-wrap: nowrap;
 
 }
 
@@ -98,17 +102,16 @@ p,
     align-items: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.rec-image {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+    border: 3px solid rgb(237, 218, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* third of the site */
@@ -118,11 +121,12 @@ p,
     display: flex;
     flex-direction: column;
     gap: 5px;
-
+    padding-top: 36px;
+    padding-bottom: 36px;
 }
 
 .quote {
-    width: 500px;
+    width: 650px;
     height: auto;
     font-style: italic;
     align-self: center;
@@ -137,24 +141,60 @@ p,
     padding-left: 200px;
     padding-top: 24px;
     font-size: 24px;
-
 }
 
-
-
-
 /* fourth of the site */
-
 
 .fourth {
     background-color: white;
     display: flex;
     justify-content: center;
+    
 }
 
 .fourth-box {
-    background-color: rgb(210, 141, 57) ;
-    height: auto;
-    width: 500x;
-    margin: 48px;
+    background-color:rgb(237, 218, 112) ;
+    height: 100px;
+    width: 800px;
+    margin: 72px;
+    padding: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.fourth-header {
+    font-size: 16px;
+    font-weight: bolder;
+    padding-bottom: 6px;
+}
+
+.fourth-bottom {
+    font-size: 12px;
+}
+
+
+.button2 {
+    align-self: center;
+    background-color: rgb(237, 218, 112);
+    padding: 10px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.button2:hover {
+    background-color: white;
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: rgb(210, 141, 57);
+    display: flex;
+    justify-content: center;
+    padding: 36px;
 }
